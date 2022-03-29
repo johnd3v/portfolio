@@ -4,7 +4,8 @@ import {
         Heading, 
         Image, 
         useColorModeValue,
-        Button
+        Button,
+        Badge
 } from "@chakra-ui/react"
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
@@ -54,11 +55,11 @@ const Page = () => {
 
                 <Section delay={0.1}>
                     <Heading as="h3" variant="section-title">
-                        Work
+                        About
                     </Heading>
                     <Paragraph>I'm John - A Web Developer with a 4 years experience working with software development companies. I specialized using Web Technologies specifically on PHP, Javascript and MySQL.</Paragraph>
                     <Box align="center" my={4}>
-                        <NextLink href="/projects"><Button rightIcon={<ChevronRightIcon mt={1}/>} >My Portfolio</Button></NextLink>
+                        <NextLink href="/projects"><Button rightIcon={<ChevronRightIcon mt={1}/>}>My Works</Button></NextLink>
                     </Box>
                 </Section>
 
@@ -89,7 +90,30 @@ const Page = () => {
 
                     <BioSection>
                         <BioYear>2021 - present</BioYear>
-                        Worked at DSG Sons Group Incorporated <small>(Senior Systems Developer)</small>
+                        Currently working at DSG Sons Group Incorporated <small>(Senior Systems Developer)</small>
+                    </BioSection>
+                    
+                </Section>
+
+
+                <Section delay={0.3}>
+                    <Heading as="h3" variant="section-title">
+                            Certifications
+                    </Heading>
+                    
+                    <BioSection>
+                        <BioYear>2017</BioYear>
+                        Microsoft Technology Associate: Security Fundamentals
+                    </BioSection>
+
+                    <BioSection>
+                        <BioYear>2017</BioYear>
+                        Microsoft Technology Associate: Database Administration Fundamentals 
+                    </BioSection>
+
+                    <BioSection>
+                        <BioYear>2017</BioYear>
+                        National Certificate II in Computer Systems Servicing
                     </BioSection>
                     
                 </Section>
