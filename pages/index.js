@@ -58,7 +58,7 @@ const Page = () => {
                     </Heading>
                     <Paragraph>I'm John - A Web Developer with a 4 years experience working with software development companies. I specialized using Web Technologies specifically on PHP, Javascript and MySQL.</Paragraph>
                     <Box align="center" my={4}>
-                        <NextLink href="/projects"><Button rightIcon={<ChevronRightIcon mt={1}/>} colorScheme="teal">My Portfolio</Button></NextLink>
+                        <NextLink href="/projects"><Button rightIcon={<ChevronRightIcon mt={1}/>} >My Portfolio</Button></NextLink>
                     </Box>
                 </Section>
 

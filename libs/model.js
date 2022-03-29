@@ -14,7 +14,7 @@ export function loadGLTFModel(
             gltf => {
                 const obj = gltf.scene
                 obj.name = 'Lucario'
-                obj.position.y = 1.3
+                obj.position.y = 1
                 obj.position.x = -1 
                 obj.receiveShadow = receiveShadow
                 obj.castShadow = castShadow

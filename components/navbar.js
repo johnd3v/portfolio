@@ -48,12 +48,12 @@ const Navbar = props =>{
             {...props}
         >
             <Container 
-                display="flex" 
-                p={2} 
-                maxW="container.lg.md" 
-                wrap="wrap" 
-                align="center" 
-                justify="space-between"
+                  display="flex"
+                  p={2}
+                  maxW="container.md"
+                  wrap="wrap"
+                  align="center"
+                  justify="space-between"
             >
                 <Flex align="center" mr={5}>
                     <Heading as="h1" size="lg" letterSpacing={'tigther'}>
@@ -62,19 +62,19 @@ const Navbar = props =>{
                 </Flex>
 
                 <Stack
-                    direction={{base:'column',md:'row'}}
-                    display={{base:'none',md:'flex'}}
-                    width={{base:'full',md:'auto'}}
+                    direction={{ base: 'column', md: 'row' }}
+                    display={{ base: 'none', md: 'flex' }}
+                    width={{ base: 'full', md: 'auto' }}
                     alignItems="center"
                     flexGrow={1}
-                    mt={{base:4,nmd:0}}
+                    mt={{ base: 4, md: 0 }}
                 >
                     <LinkItem href="/" path={path}>About</LinkItem>
                     <LinkItem href="/projects" path={path}>Projects</LinkItem>
                 </Stack>
                 
                 <Box flex={1} align="right">
-                        <ThemeToggleButton/>
+                    <ThemeToggleButton/>
                     <Box ml={2} display={{base:'inline-block',md:'none'}}>
                             <Menu>
                                 <MenuButton 
