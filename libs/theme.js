@@ -37,7 +37,6 @@ const fonts = {
     heading: "'M PLUS Rounded 1c'"
 }
 
-
 const colors = {
     glassTeal : '#88ccca'
 }
