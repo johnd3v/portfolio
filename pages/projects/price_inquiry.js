@@ -1,5 +1,4 @@
-import {Container,Badge,Link,List,ListItem} from '@chakra-ui/react' 
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+import {Container,Badge,List,ListItem} from '@chakra-ui/react' 
 import { Title,ProjectImage,Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -7,18 +6,18 @@ import Layout from '../../components/layouts/article'
 
 const Project = () => {
     return (
-        <Layout title="Don Sakagawa Realty">
+        <Layout title="Mobile Price Inquiry">
             <Container>
                 <Title>
                     Mobile Price Inquiry <Badge>2021</Badge>
                 </Title>
                 <P>
-                Mobile Price Inquiry For DSG Sons Group, with daily data synchorinization.
+                    A mobile app for DSG Sons Group to validate item price between db2 and tps files with daily data synchorinization and can print price tag using thermal printer.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>PHP(Slim3)Rest API,SQLite,DB2,TopSpeed Client ODBC, Kotlin</span>
+                        <span>PHP 7 - Slim3, SQLite, IBM db2, TopSpeed , Kotlin</span>
                     </ListItem>
                 </List>
 

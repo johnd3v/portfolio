@@ -18,7 +18,7 @@ const Project = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>PHP 7 - Laravel,Javascript,MySQL,Redis,socket.io</span>
+                        <span>PHP 7 - Laravel , Javascript, MySQL, Redis, WebSocket</span>
                     </ListItem>
                 </List>
 

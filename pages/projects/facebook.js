@@ -13,7 +13,8 @@ const Project = () => {
                     Facebook <Badge>2021</Badge>
                 </Title>
                 <P>
-                    Created in ReactJS using firebase as storage with google Authentication. Purpose for this clone application is to create UI using latest approach in ReactJS
+                    Purpose for this project is to learn and create UI application using ReactJS with firebase google authentication
+                    
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

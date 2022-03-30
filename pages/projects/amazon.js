@@ -13,7 +13,7 @@ const Project = () => {
                     Amazon Clone<Badge>2021</Badge>
                 </Title>
                 <P>
-                Mobile Price Inquiry For DSG Sons Group, with daily data synchorinization.
+                    Purpose of this project is to learn react context api and create UI application using ReactJS. Also has Strip API Integration using NodeJS for sample payment and user authentication using Google Auth
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

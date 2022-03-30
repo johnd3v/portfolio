@@ -1,5 +1,4 @@
 import {Container,Badge,Link,List,ListItem} from '@chakra-ui/react' 
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title,ProjectImage,Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -7,7 +6,7 @@ import Layout from '../../components/layouts/article'
 
 const Project = () => {
     return (
-        <Layout title="Don Sakagawa Realty">
+        <Layout title="Project Oasis">
             <Container>
                 <Title>
                     Project Oasis <Badge>2018</Badge>

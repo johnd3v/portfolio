@@ -1,5 +1,4 @@
 import {Container,Badge,Link,List,ListItem} from '@chakra-ui/react' 
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title,ProjectImage,Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -7,18 +6,18 @@ import Layout from '../../components/layouts/article'
 
 const Project = () => {
     return (
-        <Layout title="Don Sakagawa Realty">
+        <Layout title="HT Realty">
             <Container>
                 <Title>
                     HT Realty Philippines <Badge>2019</Badge>
                 </Title>
                 <P>
-                Developed a custom API for a Real Estate Online Mortgage system for the company. Real Estate Morgage System used by DSR Don Sakagawa Realty Co. System features may generate reports.
+                Developed a custom API for a Real Estate Online Mortgage system for the company. Real Estate Morgage System used by HT Realty Philippines. The system can manage users and generate commission for every agent sales.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>PHP(Slim3), HTML, CSS, Javascrip, MySQL</span>
+                        <span>PHP 7 - Slim3 , HTML, CSS, Javascript, MySQL</span>
                     </ListItem>
                 </List>
 

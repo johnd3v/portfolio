@@ -13,7 +13,7 @@ const Project = () => {
                     Airbnb Clone <Badge>2021</Badge>
                 </Title>
                 <P>
-                Created in ReactJS using firebase for hosting. Purpose for this clone application is to create UI using latest approach in ReactJS
+                Purpose for this clone application is to create UI using ReactJS and hosted on firebase
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

@@ -13,12 +13,12 @@ const Project = () => {
                     Don Sakagawa Realty <Badge>2019</Badge>
                 </Title>
                 <P>
-                Developed a custom API for a Real Estate Online Mortgage system for the company. Real Estate Morgage System used by DSR Don Sakagawa Realty Co. System features may generate reports.
+                Developed a custom API for a Real Estate Online Mortgage system for the company. Real Estate Morgage System used by DSR Don Sakagawa Realty Co. The system can manage user and generate sales report.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>PHP(Slim3), HTML, CSS, Javascrip, MySQL</span>
+                        <span>PHP 7 - Slim3, HTML, CSS, Javascript, MySQL</span>
                     </ListItem>
                 </List>
 

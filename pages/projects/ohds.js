@@ -13,12 +13,12 @@ const Project = () => {
                     Online Health Declaration System <Badge>2021</Badge>
                 </Title>
                 <P>
-                    Automated health declaration system, detects an employee who have answered yes in the form and proceeds to clinic for screening.
+                    A mobile first web application that can detects an employee who have answered yes in the form and proceeds to the clinic for screening.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>PHP(Laravel),Javascript,MySQL,Redis</span>
+                        <span>PHP 8 - Laravel, Javascript, MySQL, Redis</span>
                     </ListItem>
                 </List>
 
