@@ -16,7 +16,7 @@ const Lucario = () => {
     const [target] = useState(new THREE.Vector3(-0.5, 1.2, 0))
     const [initialCameraPosition] = useState(
       new THREE.Vector3(
-        20 * Math.sin(0.2 * Math.PI),
+        30 * Math.sin(0.2 * Math.PI),
         10,
         20 * Math.cos(0.2 * Math.PI)
       )
@@ -61,6 +61,7 @@ const Lucario = () => {
         )
         camera.position.copy(initialCameraPosition)
         camera.lookAt(target)
+        
         setCamera(camera)
   
         const ambientLight = new THREE.AmbientLight(0xcccccc, 1)
@@ -69,6 +70,8 @@ const Lucario = () => {
         const controls = new OrbitControls(camera, renderer.domElement)
         controls.autoRotate = true
         controls.target = target
+        controls.enableZoom = false
+        
         setControls(controls)
   
         loadGLTFModel(scene, '/scene.gltf', {

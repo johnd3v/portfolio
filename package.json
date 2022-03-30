@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "John Riggo Tolentino",
-  "license": "MIT",
+  "license": "",
   "dependencies": {
     "@chakra-ui/icon": "^2.0.5",
     "@chakra-ui/icons": "^1.1.7",
