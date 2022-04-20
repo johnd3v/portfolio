@@ -33,7 +33,7 @@ const Projects = () => {
                 </Section>
                 <Section>
                     <ProjectGridItem id="propertier" title="Propertier" thumbnail={propertier}>
-                        Developed a custom API for a Real Estate Online Mortgage system for the company. Real Estate Morgage System used by Hornijas-Tobias Realty and Co. System features may generate reports and manage
+                        Developed a custom Real Estate Management System. The system composed of printing and generating commissions and managing sales.
                     </ProjectGridItem>
                 </Section>
                 <Section>
