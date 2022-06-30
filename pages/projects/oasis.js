@@ -23,7 +23,7 @@ const Project = () => {
 
                 <ProjectImage src="/images/projects/oasis/home.jpg" alt="Home UI"/>
                 <ProjectImage src="/images/projects/oasis/login.jpg" alt="Login UI"/>
-                <ProjectImage src="/images/projects/oasis/opt.jpg" alt="OTP UI"/>
+                <ProjectImage src="/images/projects/oasis/otp.jpg" alt="OTP UI"/>
                 <ProjectImage src="/images/projects/oasis/pin.jpg" alt="Pin UI"/>
                 <ProjectImage src="/images/projects/oasis/dashboard.jpg" alt="Dashboard UI"/>
                 <ProjectImage src="/images/projects/oasis/nav.jpg" alt="Navigation UI"/>
