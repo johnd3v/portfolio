@@ -94,8 +94,13 @@ const Page = () => {
                     </BioSection>
                         
                     <BioSection>
-                        <BioYear>2022 - Present</BioYear>
-                        Currently working at Sweet Onion Media Group <small>(PHP Developer)</small>
+                        <BioYear>2022 - 2023</BioYear>
+                        Worked at Sweet Onion Media Group <small>(PHP Developer)</small>
+                    </BioSection>
+
+                    <BioSection>
+                        <BioYear>2023 - Present</BioYear>
+                        Currently working at Codev <small>(Full Stack Developer)</small>
                     </BioSection>
                     
                 </Section>
