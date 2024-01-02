@@ -21,7 +21,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "framer-motion": "^6.2.8",
-    "next": "^12.1.0",
+    "next": "^13.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "three": "^0.139.0"
