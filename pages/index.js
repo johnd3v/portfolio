@@ -15,6 +15,8 @@ import {BioSection,BioYear} from  '../components/bio'
 
 import Layout from "../components/layouts/article"
 const Page = () => {
+  const currentYear = new Date().getFullYear();
+  const yearsOfExperience = currentYear - 2018;
     return(
         <Layout>
             <Container>
@@ -57,7 +59,7 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         About
                     </Heading>
-                    <Paragraph>I'm John - A Software Engineer with a 5 years experience working with software development companies. I specialized using Web Technologies specifically on PHP, Javascript and MySQL.</Paragraph>
+                    <Paragraph>I'm John - A Software Engineer with a {yearsOfExperience} years experience working with software development companies. I specialized using Web Technologies specifically on PHP, Javascript and MySQL.</Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/projects"><Button rightIcon={<ChevronRightIcon mt={1}/>}>My Works</Button></NextLink>
                     </Box>
