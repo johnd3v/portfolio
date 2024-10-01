@@ -59,7 +59,7 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         About
                     </Heading>
-                    <Paragraph>I'm John - A Software Engineer with a {yearsOfExperience} years experience working with software development companies. I specialized using Web Technologies specifically on PHP, Javascript and MySQL.</Paragraph>
+                    <Paragraph>I’m John, a Software Engineer with over 6 years of hands-on experience in the software development industry. Throughout my career, I’ve focused on leveraging web technologies, particularly PHP, JavaScript, and MySQL, to develop robust and scalable solutions. My expertise spans full-stack development, and I’ve contributed to numerous projects in dynamic environments. I am passionate about solving complex challenges, optimizing user experiences, and continuously expanding my skill set to meet the evolving demands of the tech world.</Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/projects"><Button rightIcon={<ChevronRightIcon mt={1}/>}>My Works</Button></NextLink>
                     </Box>
