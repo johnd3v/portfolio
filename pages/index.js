@@ -34,7 +34,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             John Riggo Tolentino
                         </Heading>
-                        <p>Artisan (Developer)</p>
+                        <p>PHP (Developer)</p>
                     </Box>
                     <Box 
                         flexShrink={0} 
@@ -101,7 +101,7 @@ const Page = () => {
                     </BioSection>
 
                     <BioSection>
-                        <BioYear>2023 - Present</BioYear>
+                        <BioYear>2023 - 2025</BioYear>
                         Currently working at Codev <small>(Full Stack Developer)</small>
                     </BioSection>
                     
