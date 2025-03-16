@@ -59,53 +59,59 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         About
                     </Heading>
-                    <Paragraph>I’m John, a Software Engineer with over 6 years of hands-on experience in the software development industry. Throughout my career, I’ve focused on leveraging web technologies, particularly PHP, JavaScript, and MySQL, to develop robust and scalable solutions. My expertise spans full-stack development, and I’ve contributed to numerous projects in dynamic environments. I am passionate about solving complex challenges, optimizing user experiences, and continuously expanding my skill set to meet the evolving demands of the tech world.</Paragraph>
+                    <Paragraph>I’m John, a Software Engineer with 6+ years of experience in full-stack development. I specialize in PHP, JavaScript, and MySQL, building scalable web solutions. Passionate about problem-solving, optimizing user experiences, and adapting to evolving tech trends..</Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/projects"><Button rightIcon={<ChevronRightIcon mt={1}/>}>My Works</Button></NextLink>
                     </Box>
                 </Section>
 
-                <Section delay={0.2}>
-                    <Heading as="h3" variant="section-title">
-                            Bio
-                    </Heading>
-                    
-                    <BioSection>
-                        <BioYear>1997</BioYear>
-                        Born In Davao, Philippines.
-                    </BioSection>
+               <Section delay={0.2}>
+    <Heading as="h3" variant="section-title">
+        Work Experience
+    </Heading>
 
-                    <BioSection>
-                        <BioYear>2018</BioYear>
-                        Graduated Information Technology <small>(University Of Mindanao)</small>
-                    </BioSection>
+    <BioSection>
+        <BioYear>2023 - 2025</BioYear>
+        Full Stack Developer at Codev
+    </BioSection>
 
-                    <BioSection>
-                        <BioYear>2018 - 2019</BioYear>
-                        Worked at Eternal Wallet Ph Holdings Incorporated <small>(Web Developer)</small>
-                    </BioSection>
+    <BioSection>
+        <BioYear>2022 - 2023</BioYear>
+        PHP Developer at Sweet Onion Media Group
+    </BioSection>
 
-                    <BioSection>
-                        <BioYear>2019 - 2021</BioYear>
-                        Worked at Techstation Incorporated <small>(Full stack web developer)</small>
-                    </BioSection>
+    <BioSection>
+        <BioYear>2021 - 2022</BioYear>
+        Senior Systems Developer at DSG Sons Group Incorporated
+    </BioSection>
 
-                    <BioSection>
-                        <BioYear>2021 - 2022</BioYear>
-                        Worked at DSG Sons Group Incorporated <small>(Senior Systems Developer)</small>
-                    </BioSection>
-                        
-                    <BioSection>
-                        <BioYear>2022 - 2023</BioYear>
-                        Worked at Sweet Onion Media Group <small>(PHP Developer)</small>
-                    </BioSection>
+    <BioSection>
+        <BioYear>2019 - 2021</BioYear>
+        Full Stack Web Developer at Techstation Incorporated
+    </BioSection>
 
-                    <BioSection>
-                        <BioYear>2023 - 2025</BioYear>
-                        Worked at Codev <small>(Full Stack Developer)</small>
-                    </BioSection>
-                    
-                </Section>
+    <BioSection>
+        <BioYear>2018 - 2019</BioYear>
+        Web Developer at Eternal Wallet PH Holdings Incorporated
+    </BioSection>
+</Section>
+
+<Section delay={0.2}>
+    <Heading as="h3" variant="section-title">
+        Bio
+    </Heading>
+
+    <BioSection>
+        <BioYear>1997</BioYear>
+        Born in Davao, Philippines.
+    </BioSection>
+
+    <BioSection>
+        <BioYear>2018</BioYear>
+        Graduated with a degree in Information Technology <small>(University of Mindanao)</small>
+    </BioSection>
+</Section>
+
 
 
                 <Section delay={0.3}>
